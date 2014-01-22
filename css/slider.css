@@ -8,12 +8,12 @@ body{
 
 .slider-section{
 	width: 50em;
-	height: 20em;
+	height: 22em;
 	background: #FABBDC;
 }
 
 img{
-	width: 150px;
+	width: 192px;
 }
 
 .center-text{
@@ -25,7 +25,7 @@ img{
 }
 
 .brwn-text{
-	color: #3B1800;
+	color: #663300;
 
 }
 
@@ -40,7 +40,7 @@ img{
 .cols{
 	float: left;
 	width: 12em;
-	height: 15em;
+	height: 18em;
 	margin-top: 1.5em;
 	margin-left: .5em;
 	position: relative;
@@ -50,11 +50,14 @@ a{
 	text-decoration: none;
 }
 
-a.opacity-hover{
-	background: rgba(59 24 0 .3);
-	width: 12em;
-	height: 12em;
-}
+/*.opacity-hover:hover{
+	overflow: hidden;
+	float: left;
+    background: #663300;
+    opacity: .3;
+    cursor: pointer;
+}*/
+
 
 button{
 	position: absolute;
@@ -62,5 +65,14 @@ button{
 }
 
 .center-button{
-	margin: 0 5em;
+	margin-left: 4em;
+}
+
+.cpb-mask:hover{
+	width: 192px;
+	overflow: hidden;
+	background-color:#663300;
+	background: url(images/cpb-mask.png)
+	mask-image:url(images/cpb-mask.png) cover;
+	-webkit-mask-image: url(images/cpb-mask.png);
 }
