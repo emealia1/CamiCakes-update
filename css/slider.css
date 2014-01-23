@@ -26,7 +26,6 @@ img{
 
 .brwn-text{
 	color: #663300;
-
 }
 
 .mrgn-top{
@@ -50,13 +49,27 @@ a{
 	text-decoration: none;
 }
 
-/*.opacity-hover:hover{
-	overflow: hidden;
+.opacity-hover:hover img{
+	-webkit-filter: hue-rotate(30deg) saturate(100%) brightness(40%);
+	opacity: .7;
+	cursor: pointer;
+
+}
+
+#chocpb-cake:hover{
+	display: 
+}
+
+#chocpb-cake{
+	color: #ffffff;
+	font-size: .75em;
+	/*display: none;*/
+	position: absolute;
+	top: 1em;
+	left: 3.5em;
+	width: 100px;
 	float: left;
-    background: #663300;
-    opacity: .3;
-    cursor: pointer;
-}*/
+}
 
 
 button{
@@ -66,13 +79,4 @@ button{
 
 .center-button{
 	margin-left: 4em;
-}
-
-.cpb-mask:hover{
-	width: 192px;
-	overflow: hidden;
-	background-color:#663300;
-	background: url(images/cpb-mask.png)
-	mask-image:url(images/cpb-mask.png) cover;
-	-webkit-mask-image: url(images/cpb-mask.png);
 }
