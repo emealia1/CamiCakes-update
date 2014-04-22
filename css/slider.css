@@ -52,7 +52,7 @@ a{
 
 /* Try http://davidwalsh.name/css-flip */
 
-.opacity-hover:hover img{
+.cols:hover .opacity-hover img{
 	-webkit-filter: hue-rotate(30deg) saturate(100%) brightness(40%);
 	-moz-filter: hue-rotate(30deg) saturate(100%) brightness(40%);
 	-ms-filter: hue-rotate(30deg) saturate(100%) brightness(40%);
@@ -60,28 +60,73 @@ a{
 	filter: hue-rotate(30deg) saturate(100%) brightness(40%);
 	opacity: .7;
 	cursor: pointer;
-	transition: all 5s ease;
-	-webkit-transition: all 5s ease; 
-	-moz-transition: all 5s ease; 
-	-o-transition: all 5s ease;
+	transition: opacity .5s ease;
+	-webkit-transition: opacity .5s ease; 
+	-moz-transition: opacity .5s ease; 
+	-o-transition: opacity .5s ease;
 }
 
-#chocpb-cake:hover{
-	color: white
-}
-
-#chocpb-cake{
+.fnt-white{
 	color: #ffffff;
-	font-size: .75em;
-	color: transparent;
-	position: absolute;
-	top: 1em;
-	left: 3.5em;
-	width: 192px;
-	height: 192px;
-	float: left;
 }
 
+.cake-info{
+	font-size: .7em;
+	width: 90px;
+	height: 60px;
+	text-align: center;
+	top: 4.5em;
+	margin: 0 51px;
+	line-height: 1.25em;
+}
+
+.cols  #chocpb-cake{
+	position:absolute;
+	visibility:hidden;
+}
+	.cols:hover #chocpb-cake{
+		visibility:visible;
+		transition: all .5s ease;
+		-webkit-transition: all .5s ease; 
+		-moz-transition: all .5s ease; 
+		-o-transition: all .5s ease;
+	}
+
+.cols  #strawberry-cake{
+	position:absolute;
+	visibility:hidden;
+}
+	.cols:hover #strawberry-cake{
+		visibility:visible;
+		transition: all .5s ease;
+		-webkit-transition: all .5s ease; 
+		-moz-transition: all .5s ease; 
+		-o-transition: all .5s ease;
+	}
+
+.cols  #bnw-cake{
+	position:absolute;
+	visibility:hidden;
+}
+	.cols:hover #bnw-cake{
+		visibility:visible;
+		transition: all .5s ease;
+		-webkit-transition: all .5s ease; 
+		-moz-transition: all .5s ease; 
+		-o-transition: all .5s ease;
+	}
+
+.cols  #coco-cake{
+	position:absolute;
+	visibility:hidden;
+}
+	.cols:hover #coco-cake{
+		visibility:visible;
+		transition: all .5s ease;
+		-webkit-transition: all .5s ease; 
+		-moz-transition: all .5s ease; 
+		-o-transition: all .5s ease;
+	}
 
 button{
 	position: absolute;
